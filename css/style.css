@@ -1,0 +1,107 @@
+main.blog-preview section.blog-preview-card {
+  width: 382px;
+  height: 521px;
+  margin: 218px 0 0 530px;
+  background-color: var(--clr-White);
+  border: 1px black solid;
+  border-radius: 25px;
+  box-shadow: 8px 8px hsla(0, 0%, 0%, 0.95);
+  padding: 0 0 0 22px;
+}
+@media screen and (max-width: 35em) {
+  main.blog-preview section.blog-preview-card {
+    width: 330px;
+    height: 480px;
+    margin: 155px 0 0 23px;
+    padding: 0 0 0 25px;
+  }
+}
+main.blog-preview section.blog-preview-card div.main-background {
+  margin-top: 24px;
+}
+@media screen and (max-width: 35em) {
+  main.blog-preview section.blog-preview-card div.main-background {
+    width: 280px;
+  }
+}
+main.blog-preview section.blog-preview-card div.main-background img {
+  border-radius: 10px;
+}
+main.blog-preview section.blog-preview-card section.card-content-top button {
+  border: none;
+  border-radius: 4px;
+  background-color: var(--clr-Yellow);
+  color: var(--clr-Black);
+  padding: 6px 9px 5px 9px;
+  margin: 23px 0 0 0;
+  font-size: 14px;
+}
+@media screen and (max-width: 375px) {
+  main.blog-preview section.blog-preview-card section.card-content-top button {
+    padding: 6px 7px 8px 12px;
+    font-size: 12px;
+  }
+}
+main.blog-preview section.blog-preview-card section.card-content-top p {
+  font-size: 14px;
+  margin-top: 9px;
+  color: var(--clr-Black);
+}
+@media screen and (max-width: 35em) {
+  main.blog-preview section.blog-preview-card section.card-content-top p {
+    margin-top: 14px;
+    font-size: 12px;
+  }
+}
+main.blog-preview section.blog-preview-card section.card-content-center h1.title {
+  width: 279px;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 16px;
+  color: var(--clr-Black);
+}
+@media screen and (max-width: 35em) {
+  main.blog-preview section.blog-preview-card section.card-content-center h1.title {
+    width: 247px;
+    font-size: 20px;
+    margin-top: 19px;
+  }
+}
+main.blog-preview section.blog-preview-card section.card-content-center p.description {
+  width: 318px;
+  height: 69px;
+  margin-top: 18px;
+  line-height: 23px;
+  color: var(--clr-Gray);
+}
+@media screen and (max-width: 35em) {
+  main.blog-preview section.blog-preview-card section.card-content-center p.description {
+    width: 279px;
+    height: 61px;
+    font-size: 14px;
+    margin-top: 19px;
+    line-height: 21px;
+    margin-top: 10px;
+  }
+}
+main.blog-preview section.blog-preview-card section.card-content-bottom div.greg-hopper-information div.grighooper-img {
+  margin: 5px 0 0 0;
+  width: 32px;
+  height: 33px;
+}
+main.blog-preview section.blog-preview-card section.card-content-bottom div.greg-hopper-information p.blogername {
+  margin: 12px 0 0 12px;
+  font-size: 14px;
+  color: var(--clr-Black);
+}
+main.blog-preview div.copyright {
+  margin: 44px 0 0 515px;
+}
+@media screen and (max-width: 35em) {
+  main.blog-preview div.copyright {
+    margin: 35px 0 0 50px;
+  }
+}
+main.blog-preview div.copyright span {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

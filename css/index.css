@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+:root {
+  --font-base: "Figtree", sans-serif;
+  --clr-Yellow: hsl(47, 88%, 63%);
+  --clr-Gray: hsl(0, 0%, 50%);
+  --clr-Black: hsl(0, 0%, 7%);
+  --clr-White: hsl(0, 0%, 100%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul[role="list"],
+ol[role="list"],
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-base);
+  overflow-x: hidden;
+  background-color: var(--clr-Yellow);
+  text-rendering: optimizeSpeed;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+a {
+  text-decoration: none;
+}
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
